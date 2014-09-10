@@ -1,0 +1,29 @@
+#render the eigenvectors - move so the vectors start at the centroid of the data
+
+#First eigenvector
+
+segments3d(c(centroid[1], centroid[1] + pr$rotation[1,1]), c(centroid[2], centroid[2] + pr$rotation[2,1]), c(centroid[3], centroid[3] + pr$rotation[3,1]), col="green", lwd=4);
+
+#Second eigenvector
+
+segments3d(c(centroid[1], centroid[1] + pr$rotation[1,2]), c(centroid[2], centroid[2] + pr$rotation[2,2]), c(centroid[3], centroid[3] + pr$rotation[3,2]), col="blue", lwd=4);
+
+#Third eigenvector
+
+segments3d(c(centroid[1], centroid[1] + pr$rotation[1,3]), c(centroid[2], centroid[2] + pr$rotation[2,3]), c(centroid[3], centroid[3] + pr$rotation[3,3]), col="red", lwd=4);
+
+
+
+
+    map_params = dict(rho_min = 0.45,
+                      rho_max = 8.5,
+                      theta_min = -np.pi,
+                      theta_max = +np.pi,
+                      width  = 24,
+                      height = 90)
+
+
+rho_   = np.linspace(np.sqrt(map_.rho_min), np.sqrt(map_.rho_max), map_.width)**2
+
+
+np.linspace

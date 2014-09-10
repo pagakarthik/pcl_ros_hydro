@@ -1,0 +1,18 @@
+<package>
+  <description brief="my_pcl_tutorial_hydro_master">
+
+     my_pcl_tutorial_hydro_master
+
+  </description>
+  <author>Tricia Jose</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/my_pcl_tutorial_hydro_master</url>
+  <depend package="pcl_conversions"/>
+  <depend package="pcl_ros"/>
+  <depend package="roscpp"/>
+  <depend package="sensor_msgs"/>
+  <depend package= "dp_ptu47_pan_tilt_stage"/>
+</package>
+
+
